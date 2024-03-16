@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hasil">
+
+    <TextView
+        android:fontFamily="@font/bungee_shade"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="galaxy store"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:background="@android:color/holo_blue_dark"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:text="Selamat Datang"
+        android:textStyle="italic"
+        android:id="@+id/hasilname"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+      />
+
+    <TextView
+        android:text="Tipe Member : "
+        android:id="@+id/tipe_member"
+        android:layout_marginTop="105dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+
+        />
+
+    <TextView
+        android:layout_marginStart="10dp"
+        android:text="Transaksi Hari Ini  "
+        android:layout_marginTop="170dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        />
+
+    <TextView
+        android:id="@+id/kode_barang"
+        android:layout_marginStart="10dp"
+        android:text="Kode Barang : "
+        android:layout_marginTop="190dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        />
+
+    <TextView
+        android:id="@+id/nama_barang"
+        android:layout_marginStart="10dp"
+        android:text="Nama Barang : "
+        android:layout_marginTop="210dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        />
+
+    <TextView
+        android:id="@+id/harga"
+        android:layout_marginStart="10dp"
+        android:text="Harga : "
+        android:layout_marginTop="230dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        />
+
+    <TextView
+        android:id="@+id/total_harga"
+        android:layout_marginStart="10dp"
+        android:text="Total Harga : "
+        android:layout_marginTop="250dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        />
+
+    <TextView
+        android:id="@+id/diskon_harga"
+        android:layout_marginStart="10dp"
+        android:text="Diskon Harga : "
+        android:layout_marginTop="270dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        />
+
+    <TextView
+        android:id="@+id/diskon_member"
+        android:layout_marginStart="10dp"
+        android:text="Diskon Member : "
+        android:layout_marginTop="290dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        />
+
+    <TextView
+        android:id="@+id/jumlah_bayar"
+        android:layout_marginStart="10dp"
+        android:text="Jumlah Bayar : "
+        android:layout_marginTop="310dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        />
+
+    <Button
+        android:id="@+id/share"
+        android:padding="10dp"
+        android:gravity="center"
+        android:text="SHARE"
+        android:textStyle="bold"
+        android:layout_marginTop="430dp"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="140dp"
+        />
+</RelativeLayout>
